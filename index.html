@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>
+			AZIM BHAYLA
+		</title>
+		<link rel="icon" href="images/letter_a.jpg" />
+		<link rel="stylesheet" href="styles/normalize.css" />
+		<link rel="stylesheet" href="styles/styles.css" />
+		<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+	</head>
+
+	<body>
+		<div id="wrapper">
+			
+			<a id="skiplink" href="#mainContent">Skip to main content</a>   <!-- skiplink -->
+
+			<header>
+				<img src="images/banner.png" usemap="#banner_map" alt="The main banner saying Azim Bhayla with few pictures of himself" />
+				<map name="banner_map">
+					<area shape=CIRCLE href="https://twitter.com/Azimb" alt="Azim's twitter page" coords="867,226,33">
+					<area shape=CIRCLE href="https://www.facebook.com/azim.bhayla" alt="Azim's facebook page" coords="782,226,33">
+				</map>
+				<h1>
+					AZIM BHAYLA	
+				</h1>
+				<!-- h1 here are 'diaplay: none;' wasn't sure if this is necessary for google search optimization -->
+			</header>
+			
+			<div id="wrap_ex_head">
+				<nav>
+					<ul>
+						<li><a href="">HOME</a></li>
+						<li><a href="personal_life.html">PERSONAL LIFE</a></li>
+						<li><a href="hobbies.html">HOBBIES</a></li>
+						<li><a href="computers.html">COMPUTERS</a></li>
+						<li><a href="blog.html">BLOG</a></li>
+					</ul>
+				</nav>
+				
+				<main id="mainContent">
+					<section>
+						<h1> Welcome!!! </h1>
+						<p>
+							Welcome to the website of Azim Bhayla (Me). This website gives an overview of my life. However this website was created as part of a project, Nontheless most of the information
+							is legit, However don't take the information on this page too seriously... and most definatly don't get offended. You can learn about me on other pages of this website. While the 
+							rest of this web page is going to cover how I went about creating this website.
+						</p>
+					</section>
+					
+					<section>
+						<h1> My Aims</h1>	
+						<p>
+							My main aim for the website is to create a sleek looking liquid-responsive website as part of my assigment for CS1109 at UCC. This webpage is infact responsive. I achived this by 
+							using the mobile first approch (except tables, where I take a different approach). I am basically trying to show off my knowledge of HTML5 and CSS. 
+						</p>
+						<p>
+							My indirect aim would be to create a webpage about my life. I also hope to learn new trick for web-design during the process of making this webpage. 
+						</p>
+					</section>
+					
+					<section> 
+						<section>
+							<h1>Making of the website</h1>	
+							<p>
+								During the making of this website I encountred many new obsticeles. Many were simply fixed by trail and error like most issues. However there were few isssues that had me troubling 
+								in my nighmares. On top of my head there were two main problems I encountred were:
+							</p> 
+							<ul>
+								<li>Equal height columns</li>
+								<li>Responsive tables</li>
+							</ul>
+						</section>
+						
+						<section>
+							<h1>Equal height columns</h1>	
+							<p>
+								During the making of my website I encountered the problem of producing equal height columns, in my case getting the sidebar (aside)	to be the same as the main. I searched the web
+								to find many different solutions but the best that suited be was as provided here, <a href="http://css-tricks.com/fluid-width-equal-height-columns/">Equal height columns</a>.In this solution
+								you add a bottom padding of an extreme value and negate the bottom margin of the same value, and allowing the containers overflow to be hidden. Simple as. However in the future flex box might
+								be the better solution as it become supported widely.
+							</p>
+						</section>
+						 
+						<section>
+							<h1>Responsive tables</h1>	
+							<p>
+								I had tables in my website and they seemed to break at a certain point on small screens, thus I though of making responsive tables. After a great deal of research on my part I discovered it was 
+								a difficult problem to solve. There are many solutions but not perfect and neither is the one is used, here is the full article <a href="http://css-tricks.com/responsive-data-tables/">Responsive tables</a>.
+								I adapoted the concept and use it to suit my needs, However during the process I noticed this solution only works for table that display information in columns (HTML - the set of information
+								is on the same row). I hope to find a solution to this some time in the future. 
+							</p>
+						</section>                              
+					</section>
+					
+					<section>
+						<h1>Credits</h1>	
+						<p>
+							most of the content on my page is either original or copyright free (background is copyright free). However there is content that i have borrowed acrooss form the web. Social media icons were borrowed from <a href="https://www.youtube.com/user/ChromeDesignsHD?feature=watch">ChromeDesignsHD</a>, 
+							You Tuber who has put up this files on his page for distrubution. I also borrowed images of Toshiba and Dell laptop from their offfical webpages repectively (link provided on that page).	
+						</p>
+					</section>
+					
+				</main>
+				
+				<aside>
+					<article>
+						<h1>Contact me:</h1>
+						<ul>
+							<li><a href="https://www.facebook.com/azim.bhayla"> <img src="images/facebook.png" alt="circular icon of facebook logo" /> Facebook </a> </li>
+							<li><a href="https://twitter.com/Azimb"> <img src="images/twitter.png" alt="circular icon of twitter logo" /> Twitter  </a></li> 
+						</ul>
+					</article>
+				</aside>
+				
+				<footer>
+					<small> Copyright &copy; 2013 AZIM BHAYLA. All Rights Reserved.	</small>
+				</footer>
+			</div> 
+		
+		</div>
+	</body>
+
+</html>
